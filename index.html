@@ -756,73 +756,64 @@
     </section>
 
     <!-- Education Section -->
-    <!-- <section id="education" class="py-20 bg-gray-900/50 relative">
+    <section id="education" class="py-20 bg-gray-900/50 relative">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 class="text-5xl font-bold mb-12 text-center gradient-text reveal">
           Education
         </h2>
-        <div class="space-y-8">
-          <div class="glass p-8 rounded-3xl reveal glow-on-hover floating">
-            <div class="flex items-center mb-4">
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- 10th Grade -->
+          <div class="glass p-8 rounded-3xl reveal glow-on-hover">
+            <div class="flex flex-col items-center text-center">
               <div
-                class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mr-4"
-              >
-                <i class="fas fa-graduation-cap text-white"></i>
-              </div>
-              <div>
-                <h3 class="text-2xl font-semibold text-purple-400">
-                  B.E. Computer Science Engineering
-                </h3>
-                <p class="text-gray-300">Chitkara University (2022–2026)</p>
-              </div>
-            </div>
-            <div class="w-full bg-gray-700 rounded-full h-2">
-              <div
-                class="bg-gradient-to-r from-purple-400 to-pink-500 h-2 rounded-full skill-progress"
-                style="--skill-width: 75%"
-              ></div>
-            </div>
-          </div>
-          <div
-            class="glass p-8 rounded-3xl reveal glow-on-hover floating-delay"
-          >
-            <div class="flex items-center mb-4">
-              <div
-                class="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mr-4"
-              >
-                <i class="fas fa-school text-white"></i>
-              </div>
-              <div>
-                <h3 class="text-2xl font-semibold text-blue-400">12th Grade</h3>
-                <p class="text-gray-300">
-                  Scholars Public School, Rajpura, Punjab
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            class="glass p-8 rounded-3xl reveal glow-on-hover floating-delay-2"
-          >
-            <div class="flex items-center mb-4">
-              <div
-                class="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center mr-4"
+                class="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center mb-4"
               >
                 <i class="fas fa-book text-white"></i>
               </div>
-              <div>
-                <h3 class="text-2xl font-semibold text-green-400">
-                  10th Grade
-                </h3>
-                <p class="text-gray-300">
-                  Scholars Public School, Rajpura, Punjab
-                </p>
+              <h3 class="text-2xl font-semibold text-green-400 mb-2">
+                10th Grade
+              </h3>
+              <p class="text-gray-300">
+                Scholars Public School, Rajpura, Punjab
+              </p>
+            </div>
+          </div>
+
+          <!-- 12th Grade -->
+          <div class="glass p-8 rounded-3xl reveal glow-on-hover">
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mb-4"
+              >
+                <i class="fas fa-school text-white"></i>
               </div>
+              <h3 class="text-2xl font-semibold text-blue-400 mb-2">
+                12th Grade
+              </h3>
+              <p class="text-gray-300">
+                Scholars Public School, Rajpura, Punjab
+              </p>
+            </div>
+          </div>
+
+          <!-- B.E. CSE -->
+          <div class="glass p-8 rounded-3xl reveal glow-on-hover">
+            <div class="flex flex-col items-center text-center">
+              <div
+                class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mb-4"
+              >
+                <i class="fas fa-graduation-cap text-white"></i>
+              </div>
+              <h3 class="text-2xl font-semibold text-purple-400 mb-2">
+                B.E. Computer Science
+              </h3>
+              <p class="text-gray-300">Chitkara University (2022–2026)</p>
             </div>
           </div>
         </div>
       </div>
-    </section> -->
-
+    </section>
     <!-- Skills Section -->
     <section id="skills" class="py-20 relative">
       <!-- Tech orbits background -->
@@ -855,127 +846,202 @@
           </h3>
           <div class="tech-grid reveal">
             <div class="tech-item">
-              <i class="fab fa-python text-yellow-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                alt="Python"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">Python</span>
             </div>
             <div class="tech-item">
-              <i class="fab fa-java text-red-500"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                alt="Java"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">Java</span>
             </div>
             <div class="tech-item">
-              <i class="fab fa-js-square text-yellow-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                alt="JavaScript"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">JavaScript</span>
             </div>
             <div class="tech-item">
-              <i class="fab fa-html5 text-orange-500"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                alt="HTML5"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">HTML5</span>
             </div>
             <div class="tech-item">
-              <i class="fab fa-css3-alt text-blue-500"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+                alt="CSS3"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">CSS3</span>
             </div>
             <div class="tech-item">
-              <i class="fab fa-node-js text-green-500"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                alt="Node.js"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">Node.js</span>
             </div>
             <div class="tech-item">
-              <i class="fab fa-react text-blue-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                alt="React"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">React</span>
             </div>
             <div class="tech-item">
-              <i class="fas fa-database text-purple-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                alt="MongoDB"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">MongoDB</span>
             </div>
             <div class="tech-item">
-              <i class="fas fa-database text-blue-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                alt="MySQL"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">MySQL</span>
             </div>
             <div class="tech-item">
-              <i class="fab fa-git-alt text-red-500"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                alt="Git"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">Git</span>
             </div>
             <div class="tech-item">
-              <i class="fab fa-github text-gray-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="GitHub"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">GitHub</span>
             </div>
             <div class="tech-item">
-              <i class="fas fa-code text-purple-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                alt="C"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">C</span>
             </div>
             <div class="tech-item">
-              <i class="fas fa-code text-purple-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                alt="C++"
+                class="w-8 h-8"
+              />
+              <span class="text-sm text-gray-300">C++</span>
+            </div>
+            <div class="tech-item">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                alt="AWS"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">AWS</span>
             </div>
             <div class="tech-item">
-              <i class="fas fa-code text-purple-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
+                alt="Express JS"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">Express JS</span>
             </div>
             <div class="tech-item">
-              <i class="fas fa-code text-purple-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/netlify/netlify-original.svg"
+                alt="Netlify"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">Netlify</span>
             </div>
             <div class="tech-item">
-              <i class="fas fa-code text-purple-400"></i>
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                alt="TypeScript"
+                class="w-8 h-8"
+              />
               <span class="text-sm text-gray-300">TypeScript</span>
+            </div>
+            <div class="tech-item">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+                alt="Tailwind CSS"
+                class="w-8 h-8"
+              />
+              <span class="text-sm text-gray-300">Tailwind</span>
+            </div>
+            <div class="tech-item">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                alt="Bootstrap"
+                class="w-8 h-8"
+              />
+              <span class="text-sm text-gray-300">Bootstrap</span>
             </div>
           </div>
         </div>
 
-        <div class="grid md:grid-cols-2 gap-8">
-          <div class="glass p-8 rounded-3xl reveal glow-on-hover">
-            <h3
-              class="text-3xl font-semibold text-purple-400 mb-6 flex items-center"
-            >
-              <i class="fas fa-user-friends mr-3"></i>
-              Soft Skills
-            </h3>
-            <div class="space-y-6">
-              <div
-                class="flex items-center p-4 bg-gradient-to-r from-purple-900/20 to-pink-900/20 rounded-2xl border border-purple-500/30 hover:border-purple-400/50 transition-all"
-              >
-                <div
-                  class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mr-4"
-                >
-                  <i class="fas fa-puzzle-piece text-white"></i>
-                </div>
-                <span class="text-lg">Problem-solving</span>
-              </div>
-              <div
-                class="flex items-center p-4 bg-gradient-to-r from-blue-900/20 to-purple-900/20 rounded-2xl border border-blue-500/30 hover:border-blue-400/50 transition-all"
-              >
-                <div
-                  class="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mr-4"
-                >
-                  <i class="fas fa-users text-white"></i>
-                </div>
-                <span class="text-lg">Teamwork</span>
-              </div>
-              <div
-                class="flex items-center p-4 bg-gradient-to-r from-green-900/20 to-blue-900/20 rounded-2xl border border-green-500/30 hover:border-green-400/50 transition-all"
-              >
-                <div
-                  class="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center mr-4"
-                >
-                  <i class="fas fa-sync-alt text-white"></i>
-                </div>
-                <span class="text-lg">Adaptability</span>
-              </div>
-              <div
-                class="flex items-center p-4 bg-gradient-to-r from-pink-900/20 to-yellow-900/20 rounded-2xl border border-pink-500/30 hover:border-pink-400/50 transition-all"
-              >
-                <div
-                  class="w-12 h-12 bg-gradient-to-r from-pink-500 to-yellow-500 rounded-full flex items-center justify-center mr-4"
-                >
-                  <i class="fas fa-comments text-white"></i>
-                </div>
-                <span class="text-lg">Communication</span>
-              </div>
+        <!-- Soft Skills with Tech Stack Style -->
+        <div class="mb-16">
+          <h3
+            class="text-3xl font-semibold text-center mb-8 text-blue-400 reveal"
+          >
+            Soft Skills
+          </h3>
+          <div class="tech-grid reveal">
+            <div class="tech-item">
+              <i class="fas fa-puzzle-piece text-purple-400"></i>
+              <span class="text-sm text-gray-300">Problem Solving</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-users text-blue-400"></i>
+              <span class="text-sm text-gray-300">Teamwork</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-sync-alt text-green-400"></i>
+              <span class="text-sm text-gray-300">Adaptability</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-comments text-pink-400"></i>
+              <span class="text-sm text-gray-300">Communication</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-lightbulb text-yellow-400"></i>
+              <span class="text-sm text-gray-300">Creative Thinking</span>
+            </div>
+            <div class="tech-item">
+              <i class="fas fa-clock text-indigo-400"></i>
+              <span class="text-sm text-gray-300">Time Management</span>
+            </div>
+
+            <div class="tech-item">
+              <i class="fas fa-brain text-red-400"></i>
+              <span class="text-sm text-gray-300">Critical Thinking</span>
             </div>
           </div>
         </div>
       </div>
     </section>
-
+    
     <!-- Projects Section -->
     <section id="projects" class="py-20 bg-gray-900/50 relative">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
