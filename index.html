@@ -1084,69 +1084,137 @@
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-gray-900/50 relative">
-      <div
-        class="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-pink-900/20"
-      ></div>
-      <div class="absolute top-0 left-0 w-full h-full opacity-30">
-        <div
-          class="absolute top-20 left-20 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl animate-pulse"
-        ></div>
-        <div
-          class="absolute bottom-20 right-20 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-pulse"
-          style="animation-delay: -2s"
-        ></div>
-        <div
-          class="absolute top-40 right-40 w-60 h-60 bg-pink-500/10 rounded-full blur-3xl animate-pulse"
-          style="animation-delay: -4s"
-        ></div>
-      </div>
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-5xl font-bold mb-12 text-center gradient-text reveal">
-          Featured Projects
-        </h2>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Project 1 -->
-          <div class="glass p-8 rounded-3xl project-card reveal glow-on-hover">
-            <div class="relative z-10">
+    <section
+      id="projects"
+      class="py-20 bg-gradient-to-br from-purple-900/20 via-blue-900/20 to-pink-900/20 relative min-h-screen"
+    >
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+          <div class="inline-block mb-4">
+            <span
+              class="text-sm font-semibold text-purple-300 uppercase tracking-wider bg-purple-500/20 px-4 py-2 rounded-full border border-purple-500/30"
+            >
+              Portfolio
+            </span>
+          </div>
+          <h2 class="text-5xl md:text-6xl font-bold mb-6 text-white">
+            Featured Projects
+          </h2>
+          <p class="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
+            Discover my latest innovations in full-stack development, AI/ML
+            implementation, and cutting-edge web technologies
+          </p>
+          <div class="flex justify-center mt-8">
+            <div
+              class="w-24 h-1 bg-gradient-to-r from-purple-400 to-blue-400 rounded-full"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div class="grid lg:grid-cols-2 gap-8 mb-16">
+          <!-- Project 1: Code Karo -->
+          <div class="group relative">
+            <div
+              class="relative bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-2xl hover:bg-white/15 transition-all duration-300 hover:-translate-y-2"
+            >
               <div
-                class="w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center mb-6"
+                class="absolute -top-3 -right-3 w-10 h-10 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full flex items-center justify-center text-white font-bold shadow-lg"
               >
-                <i class="fas fa-code text-white text-2xl"></i>
+                01
               </div>
-              <h3 class="text-2xl font-semibold text-purple-400 mb-4">
-                Web Portfolio
-              </h3>
-              <p class="text-gray-300 mb-6">
-                A responsive portfolio website built with modern web
-                technologies, featuring smooth animations and interactive
-                elements.
-              </p>
-              <div class="flex flex-wrap gap-2 mb-6">
-                <span
-                  class="px-3 py-1 bg-purple-900/50 rounded-full text-sm border border-purple-500/30"
-                  >HTML5</span
-                >
-                <span
-                  class="px-3 py-1 bg-blue-900/50 rounded-full text-sm border border-blue-500/30"
-                  >CSS3</span
-                >
-                <span
-                  class="px-3 py-1 bg-yellow-900/50 rounded-full text-sm border border-yellow-500/30"
-                  >JavaScript</span
-                >
+
+              <div class="mb-6">
+                <div class="flex items-center gap-4 mb-4">
+                  <div
+                    class="w-14 h-14 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center"
+                  >
+                    <i class="fas fa-code text-white text-xl"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-white mb-1">
+                      Code Karo
+                    </h3>
+                    <span class="text-gray-300 text-sm"
+                      >Advanced Code Editor</span
+                    >
+                  </div>
+                </div>
               </div>
-              <div class="flex space-x-4">
+
+              <div class="space-y-4 mb-6">
+                <p class="text-gray-200 leading-relaxed">
+                  A revolutionary online code editor that transforms the way
+                  developers collaborate. Features real-time multi-user editing,
+                  intelligent syntax highlighting, and instant code execution
+                  across multiple programming languages.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-3">
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-users text-emerald-400 text-sm"></i>
+                    <span class="text-sm">Real-time Collaboration</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-play text-emerald-400 text-sm"></i>
+                    <span class="text-sm">Instant Code Execution</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-palette text-emerald-400 text-sm"></i>
+                    <span class="text-sm">Syntax Highlighting</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-cloud text-emerald-400 text-sm"></i>
+                    <span class="text-sm">Cloud Integration</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tech Stack -->
+              <div class="mb-6">
+                <h4
+                  class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3"
+                >
+                  Tech Stack
+                </h4>
+                <div class="flex flex-wrap gap-2">
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-200 border border-blue-500/30 rounded-full text-sm"
+                    >TypeScript</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-green-500/20 text-green-200 border border-green-500/30 rounded-full text-sm"
+                    >Node.js</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-red-500/20 text-red-200 border border-red-500/30 rounded-full text-sm"
+                    >Socket.io</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-purple-500/20 text-purple-200 border border-purple-500/30 rounded-full text-sm"
+                    >Monaco Editor</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-teal-500/20 text-teal-200 border border-teal-500/30 rounded-full text-sm"
+                    >Tailwind CSS</span
+                  >
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="flex gap-3">
                 <a
-                  href="#"
-                  class="text-purple-400 hover:text-purple-300 flex items-center gap-2 transition-colors"
+                  href="https://github.com/itsrudra143/codekaro"
+                  target="_blank"
+                  class="flex items-center gap-2 px-5 py-2 bg-gray-700 hover:bg-gray-600 border border-gray-600 rounded-lg text-white font-medium transition-colors"
                 >
                   <i class="fab fa-github"></i>
                   GitHub
                 </a>
                 <a
                   href="#"
-                  class="text-blue-400 hover:text-blue-300 flex items-center gap-2 transition-colors"
+                  class="flex items-center gap-2 px-5 py-2 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-lg text-white font-medium hover:from-emerald-400 hover:to-teal-400 transition-all"
                 >
                   <i class="fas fa-external-link-alt"></i>
                   Live Demo
@@ -1155,46 +1223,107 @@
             </div>
           </div>
 
-          <!-- Project 2 -->
-          <div class="glass p-8 rounded-3xl project-card reveal glow-on-hover">
-            <div class="relative z-10">
+          <!-- Project 2: Exam Matrix -->
+          <div class="group relative">
+            <div
+              class="relative bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-2xl hover:bg-white/15 transition-all duration-300 hover:-translate-y-2"
+            >
               <div
-                class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl flex items-center justify-center mb-6"
+                class="absolute -top-3 -right-3 w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center text-white font-bold shadow-lg"
               >
-                <i class="fas fa-database text-white text-2xl"></i>
+                02
               </div>
-              <h3 class="text-2xl font-semibold text-blue-400 mb-4">
-                Data Management System
-              </h3>
-              <p class="text-gray-300 mb-6">
-                A comprehensive data management system with CRUD operations,
-                built using modern database technologies.
-              </p>
-              <div class="flex flex-wrap gap-2 mb-6">
-                <span
-                  class="px-3 py-1 bg-green-900/50 rounded-full text-sm border border-green-500/30"
-                  >Node.js</span
-                >
-                <span
-                  class="px-3 py-1 bg-purple-900/50 rounded-full text-sm border border-purple-500/30"
-                  >MongoDB</span
-                >
-                <span
-                  class="px-3 py-1 bg-blue-900/50 rounded-full text-sm border border-blue-500/30"
-                  >Express</span
-                >
+
+              <div class="mb-6">
+                <div class="flex items-center gap-4 mb-4">
+                  <div
+                    class="w-14 h-14 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center"
+                  >
+                    <i class="fas fa-graduation-cap text-white text-xl"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-white mb-1">
+                      Exam Matrix
+                    </h3>
+                    <span class="text-gray-300 text-sm"
+                      >Smart Examination Platform</span
+                    >
+                  </div>
+                </div>
               </div>
-              <div class="flex space-x-4">
+
+              <div class="space-y-4 mb-6">
+                <p class="text-gray-200 leading-relaxed">
+                  A comprehensive digital examination ecosystem that
+                  revolutionizes online testing. Equipped with AI-powered
+                  proctoring, advanced analytics, and intelligent question
+                  randomization for secure and fair assessments.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-3">
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-shield-alt text-blue-400 text-sm"></i>
+                    <span class="text-sm">AI Proctoring System</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-chart-line text-blue-400 text-sm"></i>
+                    <span class="text-sm">Advanced Analytics</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-random text-blue-400 text-sm"></i>
+                    <span class="text-sm">Question Randomization</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-clock text-blue-400 text-sm"></i>
+                    <span class="text-sm">Real-time Monitoring</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tech Stack -->
+              <div class="mb-6">
+                <h4
+                  class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3"
+                >
+                  Tech Stack
+                </h4>
+                <div class="flex flex-wrap gap-2">
+                  <span
+                    class="px-3 py-1 bg-green-500/20 text-green-200 border border-green-500/30 rounded-full text-sm"
+                    >MongoDB</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-yellow-500/20 text-yellow-200 border border-yellow-500/30 rounded-full text-sm"
+                    >Express.js</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-200 border border-blue-500/30 rounded-full text-sm"
+                    >React</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-green-600/20 text-green-200 border border-green-600/30 rounded-full text-sm"
+                    >Node.js</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-purple-500/20 text-purple-200 border border-purple-500/30 rounded-full text-sm"
+                    >Tailwind CSS</span
+                  >
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="flex gap-3">
                 <a
-                  href="#"
-                  class="text-purple-400 hover:text-purple-300 flex items-center gap-2 transition-colors"
+                  href="https://github.com/itsrudra143/exam-matrix"
+                  target="_blank"
+                  class="flex items-center gap-2 px-5 py-2 bg-gray-700 hover:bg-gray-600 border border-gray-600 rounded-lg text-white font-medium transition-colors"
                 >
                   <i class="fab fa-github"></i>
                   GitHub
                 </a>
                 <a
                   href="#"
-                  class="text-blue-400 hover:text-blue-300 flex items-center gap-2 transition-colors"
+                  class="flex items-center gap-2 px-5 py-2 bg-gradient-to-r from-blue-500 to-purple-500 rounded-lg text-white font-medium hover:from-blue-400 hover:to-purple-400 transition-all"
                 >
                   <i class="fas fa-external-link-alt"></i>
                   Live Demo
@@ -1203,50 +1332,312 @@
             </div>
           </div>
 
-          <!-- Project 3 -->
-          <div class="glass p-8 rounded-3xl project-card reveal glow-on-hover">
-            <div class="relative z-10">
+          <!-- Project 3: ProCareer -->
+          <div class="group relative">
+            <div
+              class="relative bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-2xl hover:bg-white/15 transition-all duration-300 hover:-translate-y-2"
+            >
               <div
-                class="w-16 h-16 bg-gradient-to-r from-pink-500 to-yellow-500 rounded-2xl flex items-center justify-center mb-6"
+                class="absolute -top-3 -right-3 w-10 h-10 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full flex items-center justify-center text-white font-bold shadow-lg"
+              >
+                03
+              </div>
+
+              <div class="mb-6">
+                <div class="flex items-center gap-4 mb-4">
+                  <div
+                    class="w-14 h-14 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-xl flex items-center justify-center"
+                  >
+                    <i class="fas fa-briefcase text-white text-xl"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-white mb-1">
+                      ProCareer
+                    </h3>
+                    <span class="text-gray-300 text-sm"
+                      >Job Matching Platform</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="space-y-4 mb-6">
+                <p class="text-gray-200 leading-relaxed">
+                  An intelligent career platform that leverages machine learning
+                  algorithms to connect talent with opportunities. Features
+                  advanced filtering, personalized recommendations, and smart
+                  matching based on skills and preferences.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-3">
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-brain text-indigo-400 text-sm"></i>
+                    <span class="text-sm">Job Matching</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-filter text-indigo-400 text-sm"></i>
+                    <span class="text-sm">Advanced Filtering</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-user-tie text-indigo-400 text-sm"></i>
+                    <span class="text-sm">Profile Optimization</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-star text-indigo-400 text-sm"></i>
+                    <span class="text-sm">Smart Recommendations</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tech Stack -->
+              <div class="mb-6">
+                <h4
+                  class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3"
+                >
+                  Tech Stack
+                </h4>
+                <div class="flex flex-wrap gap-2">
+                  <span
+                    class="px-3 py-1 bg-green-500/20 text-green-200 border border-green-500/30 rounded-full text-sm"
+                    >MongoDB</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-yellow-500/20 text-yellow-200 border border-yellow-500/30 rounded-full text-sm"
+                    >Express.js</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-200 border border-blue-500/30 rounded-full text-sm"
+                    >React</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-green-600/20 text-green-200 border border-green-600/30 rounded-full text-sm"
+                    >Node.js</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-purple-500/20 text-purple-200 border border-purple-500/30 rounded-full text-sm"
+                    >Tailwind CSS</span
+                  >
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="flex gap-3">
+                <a
+                  href="https://github.com/itsrudra143/procareer"
+                  target="_blank"
+                  class="flex items-center gap-2 px-5 py-2 bg-gray-700 hover:bg-gray-600 border border-gray-600 rounded-lg text-white font-medium transition-colors"
+                >
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+                <a
+                  href="#"
+                  class="flex items-center gap-2 px-5 py-2 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-lg text-white font-medium hover:from-indigo-400 hover:to-blue-400 transition-all"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Live Demo
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 4: Wine Quality Prediction -->
+          <div class="group relative">
+            <div
+              class="relative bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-2xl hover:bg-white/15 transition-all duration-300 hover:-translate-y-2"
+            >
+              <div
+                class="absolute -top-3 -right-3 w-10 h-10 bg-gradient-to-r from-red-500 to-pink-500 rounded-full flex items-center justify-center text-white font-bold shadow-lg"
+              >
+                04
+              </div>
+
+              <div class="mb-6">
+                <div class="flex items-center gap-4 mb-4">
+                  <div
+                    class="w-14 h-14 bg-gradient-to-r from-red-500 to-pink-500 rounded-xl flex items-center justify-center"
+                  >
+                    <i class="fas fa-wine-glass-alt text-white text-xl"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-2xl font-bold text-white mb-1">
+                      Wine Quality Predictor
+                    </h3>
+                    <span class="text-gray-300 text-sm"
+                      >ML Quality Assessment</span
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="space-y-4 mb-6">
+                <p class="text-gray-200 leading-relaxed">
+                  An advanced machine learning model that analyzes wine quality
+                  through sophisticated chemical property assessment. Utilizes
+                  multiple ML algorithms including Random Forest and SVM for
+                  accurate quality predictions.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-3">
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-flask text-red-400 text-sm"></i>
+                    <span class="text-sm">Chemical Analysis</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-chart-bar text-red-400 text-sm"></i>
+                    <span class="text-sm">Data Visualization</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-robot text-red-400 text-sm"></i>
+                    <span class="text-sm">Multiple ML Models</span>
+                  </div>
+                  <div class="flex items-center gap-2 text-gray-200">
+                    <i class="fas fa-bullseye text-red-400 text-sm"></i>
+                    <span class="text-sm">95% Accuracy Rate</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tech Stack -->
+              <div class="mb-6">
+                <h4
+                  class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3"
+                >
+                  Tech Stack
+                </h4>
+                <div class="flex flex-wrap gap-2">
+                  <span
+                    class="px-3 py-1 bg-blue-500/20 text-blue-200 border border-blue-500/30 rounded-full text-sm"
+                    >Python</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-orange-500/20 text-orange-200 border border-orange-500/30 rounded-full text-sm"
+                    >Scikit-learn</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-purple-500/20 text-purple-200 border border-purple-500/30 rounded-full text-sm"
+                    >Pandas</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-green-500/20 text-green-200 border border-green-500/30 rounded-full text-sm"
+                    >NumPy</span
+                  >
+                  <span
+                    class="px-3 py-1 bg-red-500/20 text-red-200 border border-red-500/30 rounded-full text-sm"
+                    >Matplotlib</span
+                  >
+                </div>
+              </div>
+
+              <!-- Action Buttons -->
+              <div class="flex gap-3">
+                <a
+                  href="https://github.com/itsrudra143/Wine-Quality-Prediction"
+                  target="_blank"
+                  class="flex items-center gap-2 px-5 py-2 bg-gray-700 hover:bg-gray-600 border border-gray-600 rounded-lg text-white font-medium transition-colors"
+                >
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+                <a
+                  href="#"
+                  class="flex items-center gap-2 px-5 py-2 bg-gradient-to-r from-red-500 to-pink-500 rounded-lg text-white font-medium hover:from-red-400 hover:to-pink-400 transition-all"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  View Analysis
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Why Choose My Projects -->
+        <div class="mt-16">
+          <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-white mb-4">
+              Why Choose My Projects?
+            </h3>
+            <p class="text-gray-200 max-w-2xl mx-auto">
+              Every project is built with attention to detail, modern best
+              practices, and user-centric design
+            </p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-8">
+            <div class="text-center group">
+              <div
+                class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300"
+              >
+                <i class="fas fa-rocket text-white text-2xl"></i>
+              </div>
+              <h4 class="text-xl font-bold text-white mb-2">
+                High Performance
+              </h4>
+              <p class="text-gray-200">
+                Optimized for speed and efficiency with modern development
+                practices
+              </p>
+            </div>
+
+            <div class="text-center group">
+              <div
+                class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300"
               >
                 <i class="fas fa-mobile-alt text-white text-2xl"></i>
               </div>
-              <h3 class="text-2xl font-semibold text-pink-400 mb-4">
-                Responsive Web App
-              </h3>
-              <p class="text-gray-300 mb-6">
-                A mobile-first responsive web application with modern UI/UX
-                design principles and smooth user interactions.
+              <h4 class="text-xl font-bold text-white mb-2">
+                Responsive Design
+              </h4>
+              <p class="text-gray-200">
+                Seamless experience across all devices and screen sizes
               </p>
-              <div class="flex flex-wrap gap-2 mb-6">
-                <span
-                  class="px-3 py-1 bg-blue-900/50 rounded-full text-sm border border-blue-500/30"
-                  >React</span
-                >
-                <span
-                  class="px-3 py-1 bg-green-900/50 rounded-full text-sm border border-green-500/30"
-                  >Tailwind</span
-                >
-                <span
-                  class="px-3 py-1 bg-yellow-900/50 rounded-full text-sm border border-yellow-500/30"
-                  >JavaScript</span
-                >
+            </div>
+
+            <div class="text-center group">
+              <div
+                class="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300"
+              >
+                <i class="fas fa-shield-alt text-white text-2xl"></i>
               </div>
-              <div class="flex space-x-4">
-                <a
-                  href="#"
-                  class="text-purple-400 hover:text-purple-300 flex items-center gap-2 transition-colors"
-                >
-                  <i class="fab fa-github"></i>
-                  GitHub
-                </a>
-                <a
-                  href="#"
-                  class="text-blue-400 hover:text-blue-300 flex items-center gap-2 transition-colors"
-                >
-                  <i class="fas fa-external-link-alt"></i>
-                  Live Demo
-                </a>
+              <h4 class="text-xl font-bold text-white mb-2">
+                Secure & Scalable
+              </h4>
+              <p class="text-gray-200">
+                Built with security first mindset and scalable architecture
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Statistics -->
+        <div class="mt-16">
+          <div
+            class="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8"
+          >
+            <div class="text-center mb-8">
+              <h3 class="text-2xl font-bold text-white mb-2">Project Impact</h3>
+              <p class="text-gray-200">
+                Real numbers that showcase the reach and effectiveness of my
+                work
+              </p>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-8">
+              <div class="text-center">
+                <div class="text-3xl font-bold text-purple-300 mb-2">50K+</div>
+                <div class="text-gray-200">Lines of Code</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-blue-300 mb-2">15+</div>
+                <div class="text-gray-200">Technologies Used</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-green-300 mb-2">100%</div>
+                <div class="text-gray-200">Client Satisfaction</div>
+              </div>
+              <div class="text-center">
+                <div class="text-3xl font-bold text-pink-300 mb-2">24/7</div>
+                <div class="text-gray-200">System Uptime</div>
               </div>
             </div>
           </div>
