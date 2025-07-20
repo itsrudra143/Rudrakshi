@@ -1,4 +1,4 @@
-# 💼 Rudrakshi Sharma — Personal Portfolio Website
+# 💼 Rudrakshi Sharma 
 
 Welcome to my personal developer portfolio!  
 This website is a reflection of who I am — a Computer Science student with a passion for clean code, creative design, and impactful projects.
