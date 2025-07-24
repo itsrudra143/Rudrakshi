@@ -85,6 +85,18 @@
     width: 35px;
     height: 35px;
   }
+  #skills {
+    display: none;
+  }
+  #certifications {
+    display: none;
+  }
+  #projects {
+    display: none;
+  }
+  #contact {
+    display: none;
+  }
 }
 @media only screen and (min-width: 427px) and (max-width: 769px) {
   body {
