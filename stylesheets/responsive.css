@@ -1,0 +1,106 @@
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+  nav {
+    display: none;
+  }
+  #navigation {
+    display: none;
+  }
+  #rslogo img {
+    height: 90px;
+    width: 100px;
+    margin-left: -10px;
+  }
+
+  #name {
+    font-size: 25px;
+  }
+
+  #bio {
+    font-size: 12px;
+    margin-top: -12px;
+  }
+  .home-buttons {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+  #about {
+    text-align: center;
+    padding: 20px;
+    h2 {
+      font-size: 28px;
+    }
+    h3 {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      font-size: 12px;
+    }
+
+    #underline {
+      display: flex;
+      width: 100%;
+    }
+    #resume-button a {
+      display: flex;
+      justify-content: center;
+      font-size: 12px;
+      padding: 0;
+    }
+    #resume-button {
+      font-size: 15px;
+    }
+
+    #about-skills {
+      display: flex;
+      flex-direction: column;
+    }
+    #about-skills .skill-tag {
+      font-size: 12px;
+      padding: 3px;
+    }
+    #about-skills .emoji {
+      font-size: 23px;
+    }
+    #about-container {
+      padding: 0px;
+    }
+  }
+
+  #education h2 {
+    font-size: 25px;
+  }
+  #education h3 {
+    font-size: 15px;
+  }
+  #education p {
+    font-size: 10px;
+  }
+  #education .education-sections {
+    padding: 12px;
+  }
+  #education .education-sections i {
+    font-size: 15px;
+  }
+  #education .education-tag {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media only screen and (min-width: 427px) and (max-width: 769px) {
+  body {
+    display: none;
+  }
+}
+@media only screen and (min-width: 770px) and (max-width: 1025px) {
+  body {
+    display: none;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 615px) {
+  body {
+    display: none;
+  }
+}

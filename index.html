@@ -45,7 +45,7 @@
     <nav class="fixed w-full z-50 bg-transparent p-1">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex items-center justify-between h-16">
-          <div class="flex-shrink-0">
+          <div id="rslogo" class="flex-shrink-0">
             <a href="#home" class="text-xl font-bold gradient-text text-shadow">
               <img
                 src="/assets/logo.png"
@@ -53,7 +53,7 @@
                 class="h-[110px] w-[120px] mb-[2px]"
             /></a>
           </div>
-          <div class="hidden md:block">
+          <div id="navigation" class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
               <a
                 href="#home"
@@ -133,25 +133,25 @@
 
       <div class="text-center z-10 relative">
         <div class="mb-8">
-          <h1 class="text-6xl md:text-8xl font-bold mb-4 text-shadow floating">
+          <h1 id="name" class="text-6xl font-bold mb-4 text-shadow floating">
             Rudrakshi Sharma
           </h1>
         </div>
         <div class="typewriter-container relative mb-8">
-          <p class="text-xl md:text-3xl text-gray-300">
+          <p id="bio" class="text-xl text-gray-300">
             Turning ideas into interactive web magic 🚀 ✨
           </p>
         </div>
         <div class="flex justify-center space-x-4">
           <a
             href="#projects"
-            class="bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-3 rounded-full hover:scale-105 transition-transform duration-300 glow-on-hover"
+            class="home-buttons bg-gradient-to-r from-purple-500 to-pink-500 px-8 py-3 rounded-full hover:scale-105 transition-transform duration-300 glow-on-hover"
           >
             Explore My Work
           </a>
           <a
             href="#contact"
-            class="border border-purple-500 px-8 py-3 rounded-full hover:bg-purple-500/20 transition-all duration-300 glow-on-hover"
+            class="home-buttons border border-purple-500 px-8 py-3 rounded-full hover:bg-purple-500/20 transition-all duration-300 glow-on-hover"
           >
             Get In Touch
           </a>
@@ -191,7 +191,7 @@
         </h2>
 
         <!-- Full Width Glass Container -->
-        <div
+        <div id="about-container"
           class="glass p-12 rounded-3xl reveal glow-on-hover w-full max-w-6xl mx-auto relative overflow-hidden"
         >
           <!-- Animated Corner Elements -->
@@ -238,6 +238,7 @@
                   >
                 </h3>
                 <div
+                  id="underline"
                   class="w-24 h-1 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"
                 ></div>
               </div>
@@ -266,7 +267,7 @@
               </div>
 
               <!-- Resume Button -->
-              <div>
+              <div id="resume-button">
                 <a
                   href="https://drive.google.com/file/d/1RJqKBWZPXuC3dhZddqcIyszURkN3Qt83/view?usp=sharing"
                   target="_blank"
@@ -294,12 +295,12 @@
             <!-- Right Column - Skills & Stats -->
             <div class="space-y-8">
               <!-- Skills Grid -->
-              <div class="grid grid-cols-2 gap-4">
+              <div id="about-skills" class="grid grid-cols-2 gap-4">
                 <div
                   class="skill-tag bg-gradient-to-br from-purple-500/20 to-pink-500/20 p-6 rounded-2xl border border-purple-500/30 hover:border-purple-500/50 transition-all duration-300 hover:scale-105 group"
                 >
                   <div
-                    class="text-3xl mb-2 group-hover:scale-110 transition-transform duration-300"
+                    class="emoji text-3xl mb-2 group-hover:scale-110 transition-transform duration-300"
                   >
                     🚀
                   </div>
@@ -311,7 +312,7 @@
                   class="skill-tag bg-gradient-to-br from-blue-500/20 to-purple-500/20 p-6 rounded-2xl border border-blue-500/30 hover:border-blue-500/50 transition-all duration-300 hover:scale-105 group"
                 >
                   <div
-                    class="text-3xl mb-2 group-hover:scale-110 transition-transform duration-300"
+                    class="emoji text-3xl mb-2 group-hover:scale-110 transition-transform duration-300"
                   >
                     💡
                   </div>
@@ -323,7 +324,7 @@
                   class="skill-tag bg-gradient-to-br from-pink-500/20 to-yellow-500/20 p-6 rounded-2xl border border-pink-500/30 hover:border-pink-500/50 transition-all duration-300 hover:scale-105 group"
                 >
                   <div
-                    class="text-3xl mb-2 group-hover:scale-110 transition-transform duration-300"
+                    class="emoji text-3xl mb-2 group-hover:scale-110 transition-transform duration-300"
                   >
                     🎨
                   </div>
@@ -335,7 +336,7 @@
                   class="skill-tag bg-gradient-to-br from-green-500/20 to-blue-500/20 p-6 rounded-2xl border border-green-500/30 hover:border-green-500/50 transition-all duration-300 hover:scale-105 group"
                 >
                   <div
-                    class="text-3xl mb-2 group-hover:scale-110 transition-transform duration-300"
+                    class="emoji text-3xl mb-2 group-hover:scale-110 transition-transform duration-300"
                   >
                     ⚡
                   </div>
@@ -380,10 +381,12 @@
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           <!-- 10th Grade -->
-          <div class="glass p-8 rounded-3xl reveal glow-on-hover">
+          <div
+            class="education-sections glass p-8 rounded-3xl reveal glow-on-hover"
+          >
             <div class="flex flex-col items-center text-center">
               <div
-                class="w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center mb-4"
+                class="education-tag w-12 h-12 bg-gradient-to-r from-green-500 to-blue-500 rounded-full flex items-center justify-center mb-4"
               >
                 <i class="fas fa-book text-white"></i>
               </div>
@@ -397,10 +400,12 @@
           </div>
 
           <!-- 12th Grade -->
-          <div class="glass p-8 rounded-3xl reveal glow-on-hover">
+          <div
+            class="education-sections glass p-8 rounded-3xl reveal glow-on-hover"
+          >
             <div class="flex flex-col items-center text-center">
               <div
-                class="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mb-4"
+                class="education-tag w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full flex items-center justify-center mb-4"
               >
                 <i class="fas fa-school text-white"></i>
               </div>
@@ -414,10 +419,12 @@
           </div>
 
           <!-- B.E. CSE -->
-          <div class="glass p-8 rounded-3xl reveal glow-on-hover">
+          <div
+            class="education-sections glass p-8 rounded-3xl reveal glow-on-hover"
+          >
             <div class="flex flex-col items-center text-center">
               <div
-                class="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mb-4"
+                class="education-tag w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full flex items-center justify-center mb-4"
               >
                 <i class="fas fa-graduation-cap text-white"></i>
               </div>
