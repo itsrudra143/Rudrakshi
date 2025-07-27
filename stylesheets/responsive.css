@@ -110,9 +110,6 @@
     width: 35px;
     height: 35px;
   }
-  #certifications {
-    display: none;
-  }
 
   #contact {
     display: none;
@@ -227,6 +224,30 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
     margin-top: 20px;
+  }
+  #certifications {
+    h2 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 12px;
+    }
+    .cert-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    h3 {
+      font-size: 18px;
+    }
+    .cert-icon {
+      width: 45px;
+      height: 45px;
+      padding: 8px;
+      i {
+        font-size: 20px;
+      }
+    }
   }
 }
 @media only screen and (min-width: 427px) and (max-width: 769px) {
