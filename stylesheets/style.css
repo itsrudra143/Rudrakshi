@@ -411,17 +411,6 @@
   box-shadow: 0 20px 40px rgba(168, 85, 247, 0.3);
 }
 
-.tech-item i {
-  font-size: 3rem;
-  margin-bottom: 1rem;
-  transition: all 0.3s ease;
-}
-
-.tech-item:hover i {
-  transform: scale(1.1);
-  filter: drop-shadow(0 0 20px currentColor);
-}
-
 .mouse-trail {
   position: fixed;
   width: 30px;
