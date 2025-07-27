@@ -322,18 +322,3 @@
     }
   }
 }
-@media only screen and (min-width: 427px) and (max-width: 769px) {
-  body {
-    display: none;
-  }
-}
-@media only screen and (min-width: 770px) and (max-width: 1025px) {
-  body {
-    display: none;
-  }
-}
-@media only screen and (min-width: 500px) and (max-width: 615px) {
-  body {
-    display: none;
-  }
-}
