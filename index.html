@@ -730,12 +730,14 @@
         <div class="text-center mb-16">
           <div class="inline-block mb-4">
             <span
-              class="text-sm font-semibold text-purple-300 uppercase tracking-wider bg-purple-500/20 px-4 py-2 rounded-full border border-purple-500/30"
+              class="project-top text-sm font-semibold text-purple-300 uppercase tracking-wider bg-purple-500/20 px-4 py-2 rounded-full border border-purple-500/30"
             >
               Projects
             </span>
           </div>
-          <h2 class="text-5xl md:text-6xl font-bold mb-6 text-white">
+          <h2
+            class="project-heading text-5xl md:text-6xl font-bold mb-6 text-white"
+          >
             Featured Projects
           </h2>
           <p class="text-xl text-gray-200 max-w-3xl mx-auto leading-relaxed">
@@ -752,7 +754,7 @@
         <!-- Projects Grid -->
         <div class="grid lg:grid-cols-2 gap-8 mb-16">
           <!-- Project 1: Code Karo -->
-          <div class="group relative">
+          <div class="group relative project-1">
             <div
               class="relative bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-2xl hover:bg-white/15 transition-all duration-300 hover:-translate-y-2"
             >
@@ -765,7 +767,7 @@
               <div class="mb-6">
                 <div class="flex items-center gap-4 mb-4">
                   <div
-                    class="w-14 h-14 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center"
+                    class="w-14 h-14 bg-gradient-to-r from-emerald-500 to-teal-500 rounded-xl flex items-center justify-center project-icon"
                   >
                     <i class="fas fa-code text-white text-xl"></i>
                   </div>
@@ -809,13 +811,13 @@
               </div>
 
               <!-- Tech Stack -->
-              <div class="mb-6">
+              <div class="mb-6 tech-stack">
                 <h4
                   class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3"
                 >
                   Tech Stack
                 </h4>
-                <div class="flex flex-wrap gap-2">
+                <div class="flex flex-wrap gap-2 technologies">
                   <span
                     class="px-3 py-1 bg-blue-500/20 text-blue-200 border border-blue-500/30 rounded-full text-sm"
                     >TypeScript</span
@@ -840,7 +842,7 @@
               </div>
 
               <!-- Action Buttons -->
-              <div class="flex gap-3">
+              <div class="flex gap-3 buttons">
                 <a
                   href="https://github.com/itsrudra143/codekaro"
                   target="_blank"
@@ -861,7 +863,7 @@
           </div>
 
           <!-- Project 2: Exam Matrix -->
-          <div class="group relative">
+          <div class="group relative project-2">
             <div
               class="relative bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-2xl hover:bg-white/15 transition-all duration-300 hover:-translate-y-2"
             >
@@ -874,7 +876,7 @@
               <div class="mb-6">
                 <div class="flex items-center gap-4 mb-4">
                   <div
-                    class="w-14 h-14 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center"
+                    class="w-14 h-14 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center project-icon"
                   >
                     <i class="fas fa-graduation-cap text-white text-xl"></i>
                   </div>
@@ -918,13 +920,13 @@
               </div>
 
               <!-- Tech Stack -->
-              <div class="mb-6">
+              <div class="mb-6 tech-stack">
                 <h4
                   class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3"
                 >
                   Tech Stack
                 </h4>
-                <div class="flex flex-wrap gap-2">
+                <div class="flex flex-wrap gap-2 technologies">
                   <span
                     class="px-3 py-1 bg-green-500/20 text-green-200 border border-green-500/30 rounded-full text-sm"
                     >MongoDB</span
@@ -949,7 +951,7 @@
               </div>
 
               <!-- Action Buttons -->
-              <div class="flex gap-3">
+              <div class="flex gap-3 buttons">
                 <a
                   href="https://github.com/itsrudra143/exam-matrix"
                   target="_blank"
@@ -970,7 +972,7 @@
           </div>
 
           <!-- Project 3: ProCareer -->
-          <div class="group relative">
+          <div class="group relative project-3">
             <div
               class="relative bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-2xl hover:bg-white/15 transition-all duration-300 hover:-translate-y-2"
             >
@@ -983,7 +985,7 @@
               <div class="mb-6">
                 <div class="flex items-center gap-4 mb-4">
                   <div
-                    class="w-14 h-14 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-xl flex items-center justify-center"
+                    class="w-14 h-14 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-xl flex items-center justify-center project-icon"
                   >
                     <i class="fas fa-briefcase text-white text-xl"></i>
                   </div>
@@ -1027,13 +1029,13 @@
               </div>
 
               <!-- Tech Stack -->
-              <div class="mb-6">
+              <div class="mb-6 tech-stack">
                 <h4
                   class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3"
                 >
                   Tech Stack
                 </h4>
-                <div class="flex flex-wrap gap-2">
+                <div class="flex flex-wrap gap-2 technologies">
                   <span
                     class="px-3 py-1 bg-green-500/20 text-green-200 border border-green-500/30 rounded-full text-sm"
                     >MongoDB</span
@@ -1058,7 +1060,7 @@
               </div>
 
               <!-- Action Buttons -->
-              <div class="flex gap-3">
+              <div class="buttons flex gap-3">
                 <a
                   href="https://github.com/itsrudra143/procareer"
                   target="_blank"
@@ -1079,7 +1081,7 @@
           </div>
 
           <!-- Project 4: Wine Quality Prediction -->
-          <div class="group relative">
+          <div class="group relative project-4">
             <div
               class="relative bg-white/10 backdrop-blur-sm border border-white/20 p-8 rounded-2xl hover:bg-white/15 transition-all duration-300 hover:-translate-y-2"
             >
@@ -1092,7 +1094,7 @@
               <div class="mb-6">
                 <div class="flex items-center gap-4 mb-4">
                   <div
-                    class="w-14 h-14 bg-gradient-to-r from-red-500 to-pink-500 rounded-xl flex items-center justify-center"
+                    class="w-14 h-14 bg-gradient-to-r from-red-500 to-pink-500 rounded-xl flex items-center justify-center project-icon"
                   >
                     <i class="fas fa-wine-glass-alt text-white text-xl"></i>
                   </div>
@@ -1136,13 +1138,13 @@
               </div>
 
               <!-- Tech Stack -->
-              <div class="mb-6">
+              <div class="mb-6 tech-stack">
                 <h4
                   class="text-sm font-semibold text-gray-300 uppercase tracking-wider mb-3"
                 >
                   Tech Stack
                 </h4>
-                <div class="flex flex-wrap gap-2">
+                <div class="flex flex-wrap gap-2 technologies">
                   <span
                     class="px-3 py-1 bg-blue-500/20 text-blue-200 border border-blue-500/30 rounded-full text-sm"
                     >Python</span
@@ -1167,7 +1169,7 @@
               </div>
 
               <!-- Action Buttons -->
-              <div class="flex gap-3">
+              <div class="flex gap-3 buttons">
                 <a
                   href="https://github.com/itsrudra143/Wine-Quality-Prediction"
                   target="_blank"
@@ -1203,7 +1205,7 @@
           <div class="grid md:grid-cols-3 gap-8">
             <div class="text-center group">
               <div
-                class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300"
+                class="w-16 h-16 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300 project-icon"
               >
                 <i class="fas fa-rocket text-white text-2xl"></i>
               </div>
@@ -1218,7 +1220,7 @@
 
             <div class="text-center group">
               <div
-                class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300"
+                class="w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300 project-icon"
               >
                 <i class="fas fa-mobile-alt text-white text-2xl"></i>
               </div>
@@ -1232,7 +1234,7 @@
 
             <div class="text-center group">
               <div
-                class="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300"
+                class="w-16 h-16 bg-gradient-to-r from-pink-500 to-red-500 rounded-xl flex items-center justify-center mx-auto mb-4 group-hover:scale-105 transition-transform duration-300 project-icon"
               >
                 <i class="fas fa-shield-alt text-white text-2xl"></i>
               </div>
@@ -1259,22 +1261,30 @@
               </p>
             </div>
 
-            <div class="grid md:grid-cols-4 gap-8">
+            <div class="grid md:grid-cols-4 gap-8 stats-grid">
               <div class="text-center">
-                <div class="text-3xl font-bold text-purple-300 mb-2">50K+</div>
-                <div class="text-gray-200">Lines of Code</div>
+                <div class="text-3xl font-bold text-purple-300 mb-2 stats">
+                  50K+
+                </div>
+                <div class="text-gray-200 stats-des">Lines of Code</div>
               </div>
               <div class="text-center">
-                <div class="text-3xl font-bold text-blue-300 mb-2">15+</div>
-                <div class="text-gray-200">Technologies Used</div>
+                <div class="text-3xl font-bold text-blue-300 mb-2 stats">
+                  15+
+                </div>
+                <div class="text-gray-200 stats-des">Technologies Used</div>
               </div>
               <div class="text-center">
-                <div class="text-3xl font-bold text-green-300 mb-2">100%</div>
-                <div class="text-gray-200">Client Satisfaction</div>
+                <div class="text-3xl font-bold text-green-300 mb-2 stats">
+                  100%
+                </div>
+                <div class="text-gray-200 stats-des">Client Satisfaction</div>
               </div>
               <div class="text-center">
-                <div class="text-3xl font-bold text-pink-300 mb-2">24/7</div>
-                <div class="text-gray-200">System Uptime</div>
+                <div class="text-3xl font-bold text-pink-300 mb-2 stats">
+                  24/7
+                </div>
+                <div class="text-gray-200 stats-des">System Uptime</div>
               </div>
             </div>
           </div>

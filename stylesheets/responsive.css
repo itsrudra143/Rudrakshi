@@ -113,9 +113,7 @@
   #certifications {
     display: none;
   }
-  #projects {
-    display: none;
-  }
+
   #contact {
     display: none;
   }
@@ -159,6 +157,76 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  #projects .project-top {
+    font-size: 12px;
+  }
+  #projects h2 {
+    font-size: 28px;
+  }
+  #projects p {
+    font-size: 12px;
+  }
+  #projects h3 {
+    font-size: 15px;
+  }
+  .project-1,
+  .project-2,
+  .project-3,
+  .project-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      font-size: 12px;
+    }
+    h4 {
+      font-size: 12px;
+    }
+    i {
+      font-size: 20px;
+    }
+    .project-icon {
+      width: 40px;
+      height: 40px;
+      padding: 7px;
+    }
+  }
+  #projects .buttons {
+    font-size: 12px;
+    padding: 5px;
+  }
+  #projects .tech-stack {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  #projects .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+  }
+  .project-icon {
+    width: 45px;
+    height: 45px;
+    padding: 8px;
+    i {
+      font-size: 20px;
+    }
+  }
+  #projects .stats {
+    font-size: 20px;
+  }
+  #projects .stats-des {
+    font-size: 10px;
+  }
+  #projects .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-top: 20px;
   }
 }
 @media only screen and (min-width: 427px) and (max-width: 769px) {
