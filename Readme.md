@@ -46,7 +46,6 @@ Simple and effective contact section to reach me directly via email or socials.
 ## 🧰 Technologies Used
 
 - HTML5, CSS3, JavaScript
-- (Optional: React.js, Tailwind CSS, or other libraries you used)
 - Netlify for deployment
 
 ---
